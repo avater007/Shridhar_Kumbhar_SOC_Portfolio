@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Shridhar Kumbhar — SOC Analyst portfolio showcasing incident response, threat detection, SIEM, and Blue Team projects." />
+  <title>Shridhar Kumbhar | SOC Analyst Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="brand-mark">SK</span><span>SHRIDHAR<span class="muted">.SEC</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <nav id="nav">
+      <a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact" class="nav-cta">Contact ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> AVAILABLE FOR SOC / BLUE TEAM OPPORTUNITIES</div>
+        <p class="overline">HELLO, I'M</p>
+        <h1>Shridhar<br><span>Kumbhar.</span></h1>
+        <h2>SOC Analyst <b>·</b> Incident Response <b>·</b> Threat Detection</h2>
+        <p class="intro">I help make digital environments safer through security monitoring, alert triage, log analysis, and practical Blue Team investigation.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="button button-ghost" href="assets/Shridhar_Kumbhar_SOC_Analyst.pdf" download>Download resume <span>↓</span></a>
+        </div>
+        <div class="hero-meta"><span><i></i> Kolhapur, Maharashtra, India</span><span>·</span><span>B.Tech CSE · 2022–2026</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="core-card">
+          <div class="core-top"><span>SECURITY OPERATIONS</span><span class="live"><i></i> MONITORING</span></div>
+          <div class="shield"><svg viewBox="0 0 120 130" role="img" aria-label="Shield illustration"><path d="M60 7 105 24v35c0 29-18 51-45 64C33 110 15 88 15 59V24L60 7Z" fill="none" stroke="currentColor" stroke-width="3"/><path d="m39 64 14 14 29-32" fill="none" stroke="#66f0c2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="core-status"><span>THREAT MONITOR</span><strong>DEFENSE ACTIVE</strong></div>
+          <div class="terminal">
+            <p><span class="terminal-green">[OK]</span> SIEM pipeline initialized</p>
+            <p><span class="terminal-green">[OK]</span> Log sources connected</p>
+            <p><span class="terminal-blue">[INFO]</span> Analyst workflow ready</p>
+            <p><span class="terminal-cursor">▌</span></p>
+          </div>
+        </div>
+        <div class="float-tag tag-top">01 / DETECT</div><div class="float-tag tag-bottom">02 / INVESTIGATE</div>
+      </div>
+      <div class="scroll-note">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading"><p class="overline">01 — PROFILE</p><h2>Security-minded.<br><span>Curious by design.</span></h2></div>
+      <div class="about-content">
+        <p class="large-copy">I’m a B.Tech Computer Science and Engineering graduate focused on Security Operations and defensive security.</p>
+        <p>During my six-month cybersecurity internship at Sumatech Learning Solutions LLP, I worked with SIEM-style dashboards, performed initial alert triage, analyzed network traffic with Wireshark, and supported incident-response activities including containment and evidence gathering.</p>
+        <div class="stat-grid">
+          <div><strong>06<span> mo</span></strong><small>Cybersecurity internship</small></div>
+          <div><strong>03</strong><small>Featured projects</small></div>
+          <div><strong>04</strong><small>Certifications / training</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience">
+      <div class="section-heading"><p class="overline">02 — EXPERIENCE</p><h2>Learning through<br><span>real security work.</span></h2></div>
+      <article class="experience-card">
+        <div class="timeline-dot"></div>
+        <div class="experience-date">6 MONTHS · PUNE, INDIA</div>
+        <div><h3>Cybersecurity Intern</h3><p class="company">Sumatech Learning Solutions LLP</p>
+          <ul class="check-list">
+            <li>Monitored security alerts using SIEM-like dashboards and performed initial alert triage to identify true positives.</li>
+            <li>Analyzed network traffic using Wireshark to investigate potential command-and-control activity, lateral movement, and data exfiltration.</li>
+            <li>Assisted incident response through containment support, evidence gathering, and post-incident review.</li>
+          </ul>
+          <div class="chip-row"><span>SIEM Monitoring</span><span>Alert Triage</span><span>Wireshark</span><span>Incident Response</span></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading"><p class="overline">03 — SELECTED WORK</p><h2>Projects built to<br><span>investigate and defend.</span></h2></div>
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-top"><span class="project-number">PROJECT / 01</span><span class="project-icon">⌁</span></div>
+          <div class="project-label">SIEM · LOG CORRELATION</div><h3>SIEM Log Correlation Dashboard</h3>
+          <p>Ingests Windows Event Logs and network syslogs into Elasticsearch, with Kibana dashboards for security visibility and correlation rules for suspicious activity.</p>
+          <div class="project-tags"><span>Python</span><span>ELK Stack</span><span>Elasticsearch</span><span>Kibana</span></div>
+          <div class="project-foot"><span>DETECTION USE CASES</span><span>↗</span></div>
+          <p class="use-cases">Brute-force attempts · Privilege escalation · Suspicious PowerShell activity</p>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-number">PROJECT / 02</span><span class="project-icon">✉</span></div>
+          <div class="project-label">THREAT ANALYSIS · PYTHON</div><h3>Phishing Email Analyser</h3>
+          <p>Analyzes email headers, extracts URLs, and checks indicators against threat-intelligence sources such as the VirusTotal API. Produces a concise IOC summary for triage.</p>
+          <div class="project-tags"><span>Python</span><span>Email Headers</span><span>IOC</span><span>VirusTotal API</span></div>
+          <div class="project-foot"><span>PHISHING INVESTIGATION</span><span>↗</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-number">PROJECT / 03</span><span class="project-icon">⌑</span></div>
+          <div class="project-label">SECURITY UTILITY · PYTHON</div><h3>Strong Password Generator</h3>
+          <p>Generates strong passwords with configurable length and complexity, selectable character sets, clipboard support, and real-time password-strength feedback.</p>
+          <div class="project-tags"><span>Python</span><span>Password Security</span><span>Entropy</span></div>
+          <div class="project-foot"><span>SECURITY HYGIENE</span><span>↗</span></div>
+        </article>
+      </div>
+      <p class="project-note">Project descriptions are based on the work listed in my resume. Add repository links when the corresponding code is published.</p>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading"><p class="overline">04 — TOOLKIT</p><h2>Skills for the<br><span>security operations floor.</span></h2></div>
+      <div class="skills-grid">
+        <div class="skill-panel"><div class="skill-head"><span>01</span><h3>SOC & Security</h3></div><div class="skill-list"><span>Security Operations</span><span>Incident Response</span><span>Alert Triage</span><span>Threat Detection</span><span>OWASP Top 10</span></div></div>
+        <div class="skill-panel"><div class="skill-head"><span>02</span><h3>Networking</h3></div><div class="skill-list"><span>TCP/IP Protocols</span><span>Network Monitoring</span><span>IDS / IPS</span><span>Firewalls</span></div></div>
+        <div class="skill-panel"><div class="skill-head"><span>03</span><h3>Tools & Platforms</h3></div><div class="skill-list"><span>Wireshark</span><span>Splunk / ELK</span><span>Nmap</span><span>Kali Linux</span><span>Burp Suite</span></div></div>
+        <div class="skill-panel"><div class="skill-head"><span>04</span><h3>Programming</h3></div><div class="skill-list"><span>Python</span><span>C / C++</span><span>HTML / CSS</span><span>Log Parsing / Regex</span></div></div>
+      </div>
+      <div class="cert-row"><div><p class="overline">CERTIFICATIONS & TRAINING</p><h3>Learning never stops.</h3></div><div class="cert-list"><span>CEH — EC-Council Training Completed</span><span>CCNA — Cisco Networking Academy</span><span>Networking Fundamentals</span><span>Digit 101 — Digital Literacy Programme</span></div></div>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="section-heading"><p class="overline">05 — EDUCATION</p><h2>Foundation in<br><span>computer science.</span></h2></div>
+      <div class="education-card"><span class="education-year">2022 — 2026</span><div><h3>B.Tech — Computer Science & Engineering</h3><p>Ashokrao Mane Group of Institutions, Kolhapur</p><small>Focus areas: Cybersecurity · Ethical Hacking · Network Security</small></div></div>
+      <div class="education-card"><span class="education-year">2021 — 2022</span><div><h3>12th (HSC) — Science</h3><p>Sadhana High School</p></div></div>
+      <div class="education-card"><span class="education-year">2020</span><div><h3>10th (SSC)</h3><p>V.D. Shinde High School</p></div></div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <p class="overline">06 — GET IN TOUCH</p><h2>Let’s make the<br><span>digital world safer.</span></h2>
+      <p class="contact-copy">Interested in SOC Analyst, Security Operations, or Blue Team opportunities? I’d be glad to connect.</p>
+      <a class="email-link" href="mailto:shridhargk2004@gmail.com">shridhargk2004@gmail.com <span>↗</span></a>
+      <div class="contact-meta"><span>+91 7709554307</span><span>Kolhapur, Maharashtra, India</span><span>English · Hindi · Marathi</span></div>
+      <div class="contact-actions"><button class="button button-primary" id="copyEmail">Copy email <span>▣</span></button><a class="button button-ghost" href="assets/Shridhar_Kumbhar_SOC_Analyst.pdf" download>Get my resume <span>↓</span></a></div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#home"><span class="brand-mark">SK</span><span>SHRIDHAR<span class="muted">.SEC</span></span></a><span>© <span id="year"></span> Shridhar Kumbhar · Built with a defender’s mindset.</span><a href="#home">BACK TO TOP ↑</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite">Email copied to clipboard</div>
+  <script src="script.js"></script>
+</body>
+</html>
